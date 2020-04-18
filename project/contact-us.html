@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Educator School</title>
+<link rel="stylesheet" type="text/css" href="styles/style.css" />
+<script>
+function d_valid(){
+       var corect_way=/^[A-Za-z, ]+$/;
+       var username=document.forms["message"]["u-name"].value;
+	   var email=document.forms["message"]["u-email"].value;
+	   var mbl=document.forms["message"]["u-mbl"].value;
+      
+   	   if(username=="" || username.lenght<3){
+	   alert("Name can't less than '3' character");
+	   return false;
+	   }
+	   if(username.match(corect_way))
+	        true;
+	   else{
+	   alert("Only Alphabet allowed in name field")
+	      return false;}
+	   if(email=="" || email.lenght<8){
+	   alert("Invalid Email");
+	   return false;
+	   }
+	   if(isNaN(mbl)){
+	   alert("Mobile Number not include charcater");
+	   return false;
+	   }
+	   if(mbl=="" || mbl.lenght<11){
+	   alert("Mobile Number is not correct");
+	   return false;
+	   }
+	   }
+
+</script>
+</head>
+<body>
+<div id="page">
+  <div id="header">
+    <div id="section">
+      <div><a href="#"><p>The educator school</p></a></div>
+      <span>usmanbabar56@gmail.com<br>
+      <br>
+      + 92 3494637002</span> </div>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="admission.html">Admissions</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="blog.html">Failure Signs</a></li>
+      <li><a href="vision.html">Our vision</a></li>
+      <li class="current"><a href="contact-us.html">Contact us</a></li>
+    </ul>
+	</div>
+	<div class="container">  
+  <form id="contact" name="message" onsubmit="return d_valid()" >
+   <h4> <b>Contact us for any queries</h4></b>
+   
+    <fieldset>
+      <input placeholder="Your name" type="text" name="u-name">
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" name="u-email"  >
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number (optional)" type="tel" name="u-mbl">
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site (optional)" type="url">
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your message here...."></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit">Submit</button>
+    </fieldset>
+   </form>
+</div>
+
+<div id="footer">
+    <div>
+	      <div id="connect"> <a href="https://www.facebook.com/naveed.hussain.g"><img src="images/icon-facebook.gif" alt="" /></a> <a href="#"><img src="images/icon-twitter.gif" alt="" /></a> <a href="#"><img src="images/icon-youtube.gif" alt="" /></a> </div>
+
+      <div class="section">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="admission.html">Admissions</a></li>
+          <li><a href="vision.html">our vision</a></li>
+          <li><a href="carer.html">Career</a></li>
+          <li class="last"><a href="contact-us.html">Contact us</a></li>
+        </ul>
+       </div>
+	</div>
+	</div>
+	</div>
+	</body>
+	</html>
+	

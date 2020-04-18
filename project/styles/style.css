@@ -1,0 +1,428 @@
+body{
+	color:#585858;
+	font-family:Arial;
+	font-size:14px;
+	margin:0;
+	min-width:960px;
+}
+
+
+#header div#section:after, #header ul:after, #content div:after, #content div ul.services:after, #footer div:after, #footer div div.section ul:after{
+	clear:both;       /*for floating blog page*/
+	content:" ";
+	display:block;
+	 
+	 
+	
+}
+#page{
+	background:url(../images/background.jpg) no-repeat center 180px;
+	width:100%;
+}
+#header{
+	background:url(../images/bg-header.gif) repeat-x;
+	height:auto;
+	overflow:hidden;
+	position:relative;
+	
+	
+}
+ #section{
+	height:145px;
+	margin:0 auto;
+	width:960px;
+}
+#section div{
+	float:left;
+	margin-top:6px;
+}
+ #section div a{
+	display:block;
+	text-decoration: none;
+	font-size: 40px;
+	color:rgb(12, 244, 255);
+}
+ #section span{
+	color:#ACBCC9;
+	float:right;
+	margin:0;
+	padding-right:20px;
+	padding-top:45px;
+	text-align:right;
+	width:178px;
+}
+#header ul{
+	
+	list-style:none;
+	margin:2px auto 0;
+	padding:0;
+	width:935px;
+}
+#header ul li{
+	
+	float:left;
+	padding-right:5px;
+}
+#header ul li a{
+	
+	color:#28475C;
+	display:block;
+	font-size:14px;
+	height:43px;
+	line-height:37px;
+	padding:0 23px;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:1px 1px 0 #94C81D;
+	text-transform:capitalize;
+}
+#header ul li.current, #header ul li:hover{
+	height:43px;
+}
+#header ul li.current a{
+	background:white ;
+	color:#2a495e;
+	font-weight:bold;
+	text-shadow:1px 1px 0 #a8d32c;
+}
+#header ul li a:hover{
+	background-color:black;
+	color:white;
+}
+
+ #tagline div{
+	color:#295071;
+	height:435px;
+	padding:0%; 
+	 margin:0%; 
+	width:1350px;
+	 
+}
+  
+  
+#content{
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+	width:960px;
+	;
+}
+ #home{
+	margin:0 auto 0;
+	overflow:hidden;
+	padding:0;
+	position:relative;
+	width:960px;
+}
+#content p a{
+	color:#000;
+	text-decoration:underline;
+}
+ 
+
+#content div{
+	background:#fff;
+	margin:10px auto 20px;
+	padding:30px;
+	width:880px;
+}
+#content div div{
+	margin:0;
+	padding:0 0 30px;
+	width:auto;
+}
+ 
+ 
+  
+ 
+}
+#content div ul.section li{
+	float:none;
+	padding-bottom:0;
+	width:auto;
+}
+ 
+ 
+}
+#content div#home div div#aside{
+	float:left;
+	padding:0;
+	width:737px;
+}
+#content div div.section div#aside{
+	float:left;
+	margin:0;
+	padding:0;
+	width:560px;
+}
+#content div#home div div#aside ul{
+	list-style:none !important;
+	padding-left:0 !important;
+	padding-top:0 !important;
+}
+#content div#home div div#aside div{
+	margin-bottom:40px;
+	float:none;
+	margin-left:0;
+	margin-top:0;
+	min-height:0;
+	padding:0;
+	width:100%;
+}
+#content div div ul{
+	margin:0;
+}
+#content div h5{
+	color:#375675;
+	font-size:14px;
+	font-weight:bold;
+	margin:30px 0 5px;
+}
+#content div#home div div#aside div h1, #content div h1{
+	color:#3f3f3f;
+	font-size:28px;
+	font-weight:normal;
+	margin:0;
+	padding-bottom:27px;
+}
+#content div h3{
+	color:#c80708;
+	font-size:28px;
+	font-weight:bold;
+	margin:0;
+	padding-bottom:27px;
+}
+ .last{
+	color:#c80708;
+	padding:0;
+	font-weight:bold;
+}
+ #content div img{
+	border:1px solid #C80708;
+	float:left;
+	margin-right:15px;
+	margin-top:8px;
+	padding:9px;
+}
+#content div img{
+	margin-right:25px;
+	margin-bottom:75px;
+}
+#content div#home div div#aside div p{
+	padding-top:12px;
+}
+#content div#home div div#aside div p, #content div p{
+	line-height:25px;
+	margin:0;
+	padding-bottom:0;
+	text-align:justify;
+}
+#content div#home div div#aside ul li{
+	border:none;
+	float:left;
+	margin-right:0;
+	padding-bottom:0;
+	padding-right:25px;
+	padding-top:0;
+	width:260px;
+}
+#content div#home div div#aside ul li:first-child{
+	padding-left:0;
+}
+#content div#home div div#aside ul li h2{
+	font-size:20px;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	text-transform:none;
+}
+#content div h2{
+	font-size:15px;
+	font-weight:normal;
+	margin:0;
+	padding-bottom:15px;
+	padding-top:40px;
+	text-transform:uppercase;
+}
+#content div h4{
+	color:#375675;
+	font-size:14px;
+	font-weight:bold;
+	line-height:25px;
+	margin:0;
+	padding-top:20px;
+}
+ 
+
+ 
+#acdemics a{
+	float:left;
+	text-decoration:none;
+	font-size:30px;
+	list-style:none;
+}
+.academic ul li{
+	float:right;
+	padding:10px;
+	list-style-type:none;
+	 
+	
+	
+}
+#vision3,ol{
+	list-style-type:disc;
+	
+}
+
+#content div h3 div{
+	border:1px dashed red;
+	float:left;
+}
+
+
+
+/*Footer start here*/
+
+#footer{
+	background:#274F75;
+	 min-height:113px;
+	width:100%;
+}
+#footer div{
+	font-size:12px;
+	margin:0 auto;
+	padding-top:37px;
+	position:relative;
+	width:960px;
+}
+ div#connect{
+	float:left;
+	padding:0;
+	width:250px;
+}
+ #connect a{
+	display:inline-block;
+	padding-right:10px;
+}
+#footer div div.section{
+	float:right;
+	padding:0;
+	width:700px;
+}
+#footer div div.section ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:absolute;
+	right:0;
+	top:0;
+}
+#footer div div.section ul li{
+	border-left:1px solid #6886a0;
+	float:left;
+	padding:0 5px;
+}
+#footer div div.section ul li.last{
+	border-right:0;
+}
+#footer div div.section ul li:first-child{
+	border:none;
+}
+#footer a{
+	color:#6886A0;
+	text-decoration:none;
+}
+#footer div div.section ul li a{
+	display:block;
+	height:12px;
+	line-height:10px;
+}
+#footer a:hover{
+	color:#fff;
+}
+ 
+ /* Contact Pages*/
+.container {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  position:relative;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow:0 0 20px;
+}
+
+ 
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none ; 
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+ 
+ 
+#contact textarea, input {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+ 
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+#contact button:hover{
+	background:red;
+}
+	
+button{
+	cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 40px;
+  padding: 10px;
+  font-size: 20px;
+}
+button a{
+	text-decoration:none;
+	color:#fff;
+}
+button:hover{
+	background: red;
+}
+ 
+
+
+ 
+ 
